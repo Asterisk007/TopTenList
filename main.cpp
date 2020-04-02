@@ -51,6 +51,11 @@ int main()
     languages->display_forward();
 
 
+    Hyperlink python;
+    python.text = "Python";
+    python.url = "https://www.python.org/";
+
+    languages->set_at(10, python);
 
     return 0;
 }
